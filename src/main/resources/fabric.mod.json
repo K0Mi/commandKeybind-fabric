@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "commandkeybind",
+  "version": "${version}",
+  "name": "Command Keybind",
+  "description": "Bind custom commands to keybinds. Press a key, run a command.",
+  "authors": ["nek036"],
+  "contact": {
+    "sources": "https://github.com/K0Mi/commandKeybind"
+  },
+  "license": "MIT",
+  "icon": "assets/commandkeybind/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nek036.commandkeybind.CommandKeybindClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
